@@ -28,14 +28,14 @@ def proceed():
     case 6:
       print(personality[random.randint(0, 2)])
     case 7:
-      # print("Press SPACE to exit...")
-      # keyboard.wait("space")
+      # print("Press ENTER to exit...")
+      # keyboard.wait("enter")
       input("Press ENTER to exit...")
       exit()
   n += 1
 
 while n >= 0 & n <= 6:
-  # print("Press SPACE to continue...")
-  # keyboard.wait("space")
+  # print("Press ENTER to continue...")
+  # keyboard.wait("enter")
   input("Press ENTER to continue...")
   proceed()
