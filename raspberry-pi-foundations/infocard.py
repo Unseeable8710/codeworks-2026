@@ -18,7 +18,7 @@ def proceed():
     case 1:
       print("\nI'm " + str(age) + " years old")
     case 2:
-      print("\nI'm in " + grade)
+      print("\nI'm in " + grade + " grade")
     case 3:
       print("\nMy main interests are " + interests)
     case 4:
@@ -27,14 +27,13 @@ def proceed():
       print("\n" + goals)
     case 6:
       print(personality[random.randint(0, 2)])
-    case 7:
       # print("Press ENTER to exit...")
       # keyboard.wait("enter")
       input("Press ENTER to exit...")
       exit()
   n += 1
 
-while n >= 0 & n <= 6:
+while n >= 0 & n <= 5:
   # print("Press ENTER to continue...")
   # keyboard.wait("enter")
   input("Press ENTER to continue...")
