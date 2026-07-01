@@ -1,5 +1,5 @@
 import random
-import os
+import sys
 # import keyboard
 
 name = "Colton Stone"
@@ -31,7 +31,7 @@ def proceed():
       # print("Press ENTER to exit...")
       # keyboard.wait("enter")
       input("Press ENTER to exit...")
-      os.kill(os.getppid(), 9)
+      sys.exit(0)
   n += 1
 
 while n >= 0 & n <= 5:
