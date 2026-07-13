@@ -6,17 +6,17 @@ yellow = LED(27)
 green = LED(22)
 
 while True:
-  green.on()
   red.off()
   yellow.off()
+  green.on()
   sleep(3)
-  
-  yellow.on()
+
   green.off()
   red.off()
+  yellow.on()
   sleep(1)
-  
-  red.on()
+
   yellow.off()
-  green.off()  
+  green.off()
+  red.on()
   sleep(3)
