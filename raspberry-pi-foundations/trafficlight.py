@@ -10,13 +10,11 @@ while True:
   red.off()
   yellow.off()
   sleep(3)
-  green.off()
   
   yellow.on()
   green.off()
   red.off()
   sleep(1)
-  yellow.off()
   
   red.on()
   yellow.off()
