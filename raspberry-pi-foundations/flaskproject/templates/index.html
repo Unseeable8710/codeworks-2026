@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LED Control</title>
+</head>
+<body>
+
+<h1>LED Control Panel</h1>
+
+<h2>LED 1</h2>
+<form method="POST" action="/control">
+    <input type="hidden" name="led" value="1">
+    <button name="action" value="on">ON</button>
+    <button name="action" value="off">OFF</button>
+</form>
+
+<h2>LED 2</h2>
+<form method="POST" action="/control">
+    <input type="hidden" name="led" value="2">
+    <button name="action" value="on">ON</button>
+    <button name="action" value="off">OFF</button>
+</form>
+
+<h2>LED 3</h2>
+<form method="POST" action="/control">
+    <input type="hidden" name="led" value="3">
+    <button name="action" value="on">ON</button>
+    <button name="action" value="off">OFF</button>
+</form>
+
+</body>
+</html>
+
