@@ -3,12 +3,12 @@ from gpiozero import LED
 
 app = Flask(__name__)
 
-led1 = LED(4)
-led2 = LED(27)
-led3 = LED(22)
-led4 = LED(4)
-led5 = LED(23)
-led6 = LED(25)
+led1 = LED(26)
+led2 = LED(13)
+led3 = LED(11)
+led4 = LED(22)
+led5 = LED(27)
+led6 = LED(17)
 
 @app.route('/')
 def index():
@@ -25,6 +25,12 @@ def control():
         target = led2
     elif led == '3':
         target = led3
+    elif led == '4':
+        target = led4
+    elif led == '5':
+        target = led5
+    elif led == '6':
+        target = led6
     else:
         return "Invalid LED"
 

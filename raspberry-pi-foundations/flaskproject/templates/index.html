@@ -1,33 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>LED Control</title>
-</head>
-<body>
-
-<h1>LED Control Panel</h1>
-
-<h2>LED 1</h2>
-<form method="POST" action="/control">
-    <input type="hidden" name="led" value="1">
-    <button name="action" value="on">ON</button>
-    <button name="action" value="off">OFF</button>
-</form>
-
-<h2>LED 2</h2>
-<form method="POST" action="/control">
-    <input type="hidden" name="led" value="2">
-    <button name="action" value="on">ON</button>
-    <button name="action" value="off">OFF</button>
-</form>
-
-<h2>LED 3</h2>
-<form method="POST" action="/control">
-    <input type="hidden" name="led" value="3">
-    <button name="action" value="on">ON</button>
-    <button name="action" value="off">OFF</button>
-</form>
-
-</body>
+  </head>
+  <body>
+    <h1>LED Control Panel</h1>
+    <h2>LED 1</h2>
+    <form method="POST" action="/control">
+      <input type="hidden" name="led" value="1">
+      <button name="action" value="on">On</button>
+      <button name="action" value="off">Off</button>
+      <button name="action" value="blink">Blink</button>
+    </form>
+    <h2>LED 2</h2>
+    <form method="POST" action="/control">
+      <input type="hidden" name="led" value="2">
+      <button name="action" value="on">On</button>
+      <button name="action" value="off">Off</button>
+      <button name="action" value="blink">Blink</button>
+    </form>
+    <h2>LED 3</h2>
+    <form method="POST" action="/control">
+      <input type="hidden" name="led" value="3">
+      <button name="action" value="on">On</button>
+      <button name="action" value="off">Off</button>
+      <button name="action" value="blink">Blink</button>
+    </form>
+    <h2>LED 4</h2>
+    <form method="POST" action="/control">
+      <input type="hidden" name="led" value="4">
+      <button name="action" value="on">On</button>
+      <button name="action" value="off">Off</button>
+      <button name="action" value="blink">Blink</button>
+    </form>
+    <h2>LED 5</h2>
+    <form method="POST" action="/control">
+      <input type="hidden" name="led" value="5">
+      <button name="action" value="on">On</button>
+      <button name="action" value="off">Off</button>
+      <button name="action" value="blink">Blink</button>
+    </form>
+    <h2>LED 6</h2>
+    <form method="POST" action="/control">
+      <input type="hidden" name="led" value="6">
+      <button name="action" value="on">On</button>
+      <button name="action" value="off">Off</button>
+      <button name="action" value="blink">Blink</button>
+    </form>
+    <h2>Settings</h2>
+    <form method="POST" action="/control">
+      <input type="number" name="rate" value="500">
+      <label for="rate">LED blink rate (ms)</label>
+      <button name="action" value="updateRate">Update</button>
+    </form>
+  </body>
 </html>
-
